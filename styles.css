@@ -1,0 +1,130 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #1e1e2f;
+    color: #e0e0e0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #2c2c54, #40407a);
+    padding: 40px 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-info h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.profile-info .tagline {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-top: 5px;
+}
+
+.profile-info .company {
+    font-size: 1rem;
+    color: #aaa;
+    margin-top: 5px;
+}
+
+section {
+    margin: 40px 0;
+    background: #2c2c54;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 2rem;
+    color: #6c5ce7;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul li {
+    background: #40407a;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skill {
+    background: #6c5ce7;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #6c5ce7;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #5a4abf;
+}
+
+footer {
+    background: #2c2c54;
+    padding: 20px 0;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+footer a {
+    color: #6c5ce7;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
