@@ -4,25 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Héder Silva Oliveira - Mentoria em Engenharia de Dados</title>
-    <meta name="description" content="Mentoria para iniciantes em Engenharia de Dados com Héder Silva Oliveira. Aprenda SQL, PySpark, Databricks, Azure e muito mais.">
+    <meta name="description" content="Mentoria prática para iniciantes em Engenharia de Dados. Aprenda do zero e torne-se um profissional pronto para o mercado!">
     <meta name="keywords" content="Engenharia de Dados, Mentoria, SQL, PySpark, Databricks, Azure, Python, Pipeline">
     <meta name="author" content="Héder Silva Oliveira">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-..." crossorigin="anonymous" />
 </head>
 <body>
-    <header>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">LogiQuery</a>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#mentoria">Mentoria</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#certificacoes">Certificações</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header data-aos="fade-down">
         <div class="container">
             <div class="profile">
                 <img src="https://avatars.githubusercontent.com/u/80929827?s=400&u=f11641a94be18c9d4938224e244568648ce557ae&v=4" alt="Héder Silva Oliveira" class="profile-pic">
                 <div class="profile-info">
                     <h1>Héder Silva Oliveira</h1>
                     <p class="tagline">Engenheiro de Dados | Mentor</p>
+                    <p class="headline">"Aprenda Engenharia de Dados do Zero e Torne-se um Profissional Pronto para o Mercado!"</p>
+                    <a href="https://wa.me/5543988146622" target="_blank" class="btn cta-btn">Fale comigo no WhatsApp</a>
                 </div>
             </div>
         </div>
     </header>
-<section id="certificacoes">
+
+    <section id="mentoria" data-aos="fade-up">
+        <div class="container">
+            <h2>O Que é a Mentoria?</h2>
+            <p>Uma mentoria 100% prática e aplicada ao mercado, projetada para iniciantes absolutos:</p>
+            <ul>
+                <li>📌 Aulas ao vivo (individuais ou em grupo)</li>
+                <li>📌 Flexibilidade total – aprenda no seu ritmo</li>
+                <li>📌 Suporte contínuo via WhatsApp</li>
+                <li>✅ Do zero ao profissional – domine SQL, PySpark, Databricks, Azure e mais</li>
+            </ul>
+            <p class="highlight">🎯 Objetivo: Em pouco tempo, você estará pronto para atuar profissionalmente em Engenharia de Dados.</p>
+            <a href="https://wa.me/5543988146622" target="_blank" class="btn cta-btn">Agende uma conversa gratuita!</a>
+        </div>
+    </section>
+
+    <section id="publico" data-aos="fade-up">
+        <div class="container">
+            <h2>Para Quem é Essa Mentoria?</h2>
+            <ul>
+                <li>✔️ Para quem quer entrar na área de Engenharia de Dados, mas não sabe por onde começar</li>
+                <li>✔️ Para quem se sente perdido com tantos cursos e precisa de um direcionamento claro</li>
+                <li>✔️ Para quem quer aprender na prática e começar a trabalhar com dados o mais rápido possível</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="depoimentos" data-aos="fade-up">
+        <div class="container">
+            <h2>Prova Social</h2>
+            <div class="depoimentos-grid">
+                <div class="depoimento">
+                    <p>"A mentoria me ajudou a entender o que realmente importa no mercado e já estou aplicando os conhecimentos no meu trabalho!"</p>
+                    <span>– João Silva</span>
+                </div>
+                <!-- Adicione mais depoimentos conforme disponível -->
+            </div>
+        </div>
+    </section>
+
+    <section id="certificacoes" data-aos="fade-up">
         <div class="container">
             <h2>Certificações</h2>
             <div class="certificacoes-grid">
@@ -36,36 +92,13 @@
                 </div>
                 <div class="certificado">
                     <img src="img/databricks.png" alt="Certificação Databricks">
-                    <p>databricks fundamentals</p>
+                    <p>Databricks Fundamentals</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="sobre">
-        <div class="container">
-            <h2>Sobre Mim</h2>
-            <p>Engenheiro de Dados com experiência em modernização e democratização de dados para clientes de BFSI na TCS. Especialista em SQL, PySpark, Databricks, Azure (com certificação DP-900), pipelines e Python. Agora, estou oferecendo mentoria para iniciantes que desejam ingressar na área de Engenharia de Dados.</p>
-        </div>
-    </section>
-
-    <section id="mentoria">
-        <div class="container">
-            <h2>Mentoria para Iniciantes</h2>
-            <p>Minha mentoria é focada em ajudar iniciantes a dominar as ferramentas e conceitos essenciais da Engenharia de Dados. Vamos cobrir tópicos como:</p>
-            <ul>
-                <li>Fundamentos de SQL e bancos de dados</li>
-                <li>Introdução ao PySpark e processamento de grandes volumes de dados</li>
-                <li>Uso do Databricks para análise e engenharia de dados</li>
-                <li>Azure: Conceitos básicos e certificação DP-900</li>
-                <li>Criação e gerenciamento de pipelines de dados</li>
-                <li>Python para automação e análise de dados</li>
-            </ul>
-            <a href="#contato" class="btn">Quero começar minha mentoria!</a>
-        </div>
-    </section>
-
-    <section id="habilidades">
+    <section id="habilidades" data-aos="fade-up">
         <div class="container">
             <h2>Habilidades</h2>
             <div class="skills-grid">
@@ -79,35 +112,45 @@
         </div>
     </section>
 
-    
-
-    <footer id="contato">
+    <footer id="contato" data-aos="fade-up">
         <div class="container">
-            <h2>Contato</h2>
-            <p>Email: heder_gestao@hotmail.com</p>
-            <p>Telefone: (43) 98814-6622</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/o-heder-silva/" target="_blank">linkedin.com/in/o-heder-silva</a></p>
-            <p>GitHub: <a href="https://github.com/Heder-Silva-Oliveira" target="_blank">github.com/Heder-Silva-Oliveira</a></p>
-
-            <!-- Formulário de Contato -->
-            <form action="https://formsubmit.co/heder_gestao@hotmail.com" method="POST">
-                <div class="form-group">
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" name="name" required>
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h2>Contato</h2>
+                    <p>Email: <a href="mailto:heder_gestao@hotmail.com">heder_gestao@hotmail.com</a></p>
+                    <p>Telefone: (43) 98814-6622</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/o-heder-silva/" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/Heder-Silva-Oliveira" target="_blank">GitHub</a>
+                    </div>
+                    <p class="cta-final">🔥 Vagas limitadas! Dê o primeiro passo para sua nova carreira agora.</p>
+                    <a href="https://wa.me/5543988146622" target="_blank" class="btn cta-btn">Fale comigo no WhatsApp</a>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                <div class="footer-form">
+                    <h3>Envie uma Mensagem</h3>
+                    <form action="https://formsubmit.co/heder_gestao@hotmail.com" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+                        <input type="hidden" name="_captcha" value="false">
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label for="message">Mensagem:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
-                <input type="hidden" name="_captcha" value="false">
-                <button type="submit" class="btn">Enviar Mensagem</button>
-            </form>
+            </div>
         </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-..." crossorigin="anonymous"></script>
+    <script>AOS.init({ duration: 1000 });</script>
 </body>
 </html>
