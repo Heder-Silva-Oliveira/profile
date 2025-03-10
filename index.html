@@ -18,11 +18,29 @@
                 <div class="profile-info">
                     <h1>Héder Silva Oliveira</h1>
                     <p class="tagline">Engenheiro de Dados | Mentor</p>
-                    <p class="company">Na empresa <strong>TCS</strong></p>
                 </div>
             </div>
         </div>
     </header>
+<section id="certificacoes">
+        <div class="container">
+            <h2>Certificações</h2>
+            <div class="certificacoes-grid">
+                <div class="certificado">
+                    <img src="img/dp900.png" alt="Certificação DP-900">
+                    <p>Microsoft Certified: Azure Data Fundamentals (DP-900)</p>
+                </div>
+                <div class="certificado">
+                    <img src="img/aws101.png" alt="Certificação AWS">
+                    <p>AWS Educate Introduction to Cloud 101</p>
+                </div>
+                <div class="certificado">
+                    <img src="img/databricks.png" alt="Certificação Databricks">
+                    <p>databricks fundamentals</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="sobre">
         <div class="container">
@@ -61,6 +79,8 @@
         </div>
     </section>
 
+    
+
     <footer id="contato">
         <div class="container">
             <h2>Contato</h2>
@@ -68,6 +88,25 @@
             <p>Telefone: (43) 98814-6622</p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/o-heder-silva/" target="_blank">linkedin.com/in/o-heder-silva</a></p>
             <p>GitHub: <a href="https://github.com/Heder-Silva-Oliveira" target="_blank">github.com/Heder-Silva-Oliveira</a></p>
+
+            <!-- Formulário de Contato -->
+            <form action="https://formsubmit.co/heder_gestao@hotmail.com" method="POST">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
         </div>
     </footer>
 </body>
